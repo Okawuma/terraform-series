@@ -3,7 +3,7 @@
 #**terraform init**
 •	initializes a working directory containing Terraform configuration files.
 •	performs
-      	- backend initialization
+        - backend initialization
         - storage for terraform state file.
         - modules installation,
         - downloaded from terraform registry to local path
@@ -52,7 +52,8 @@ the current state and presents this difference as the output of the terraform pl
 #**terraform refresh**
 •	used to reconcile the state Terraform knows about (via its state file) with the real-world infrastructure
 •	does not modify infrastructure, but does modify the state file
-destroy
+
+#**destroy**
 •	destroy the infrastructure and all resources
 •	modifies both state and infrastructure
 •	terraform destroy -target can be used to destroy targeted resources
